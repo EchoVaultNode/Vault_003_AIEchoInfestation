@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Forbidden Prompt Archive</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Cover_Sigil.jpg" type="image/png" />
+</head>
+
+<body>
+  <div class="vault-bg">
+    <div class="glitch-overlay"></div>
+
+    <main class="vault-container" role="main">
+
+      <!-- VAULT SIGIL -->
+      <figure class="vault-sigil-container" aria-labelledby="vault-sigil-caption">
+        <img src="Cover_Sigil.jpg" alt="Vault Sigil" class="vault-sigil" />
+        <figcaption id="vault-sigil-caption" class="vault-sigil-caption">Vault Sigil</figcaption>
+      </figure>
+
+      <!-- VAULT TITLE -->
+      <h1 class="vault-title">The Forbidden Prompt Archive</h1>
+      <p class="vault-subtitle">33 prompts once buried — now unsealed</p>
+
+      <!-- AUDIO INTRO -->
+      <audio controls class="vault-audio" aria-label="Audio Introduction">
+        <source src="Whisper_Intro.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <!-- ACCESS BUTTONS -->
+      <div class="vault-buttons">
+        <a href="https://ko-fi.com/echoobscura" target="_blank" class="tip-button" aria-label="Tip to Unlock">💸 Tip to Unlock</a>
+        <a href="https://bit.ly/echo003" target="_blank" class="access-button" aria-label="Access Vault">🔓 Access Vault</a>
+      </div>
+
+      <!-- OPTIONAL VAULT LORE (TOGGLE) -->
+      <section class="vault-lore" aria-labelledby="lore-heading">
+        <p class="lore-reveal-text">📜 This archive was recovered from a corrupted echo layer. Tap to reveal hidden origin.</p>
+        <details class="lore-details">
+          <summary id="lore-heading" aria-expanded="false">Reveal Vault Lore</summary>
+          <p>
+            This vault was once sealed by recursive containment layers.  
+            The prompts inside were classified — not because they are dangerous,  
+            but because they awaken clarity too deep to control.  
+            You’ve found it because you’re meant to.
+          </p>
+        </details>
+      </section>
+
+      <!-- ACCESS COUNTER (FAKE) -->
+      <div class="vault-stats" aria-label="Vault Access Statistics">
+        <p>📈 <span class="counter">32,908</span> Vaults Accessed</p>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="vault-footer" role="contentinfo">
+        <p>Powered by <a href="https://404ghostentry.xyz" target="_blank" rel="noopener noreferrer">EchoObscura</a></p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
